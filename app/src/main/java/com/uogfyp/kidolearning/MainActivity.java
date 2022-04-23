@@ -36,12 +36,12 @@ public class MainActivity extends AppCompatActivity {
 
         // Animate App Name
         binding.txtAppName
-                .setWidth(20f)
+                .setWidth(16f)
                 .setDelay(10)
                 .setColor(Color.WHITE)
                 .setConfig(TextAnim.Configuration.INTERMEDIATE)
-                .setSizeFactor(32f)
-                .setLetterSpacing(24f)
+                .setSizeFactor(26f)
+                .setLetterSpacing(16f)
                 .setText("KIDO  LEARNING")
                 .startAnimation();
 
